@@ -98,7 +98,7 @@ namespace estoqueIgreja
                     ORDER BY codigo ASC, categoria;
                     """;
             }
-            else if (cmbFiltro.Text == "Recém adicionados")
+            else if (cmbFiltro.Text == "RecÃ©m adicionados")
             {
                 sql = """
                     SELECT Codigo, Nome, Categoria, Estado, Insercao, Vencimento
